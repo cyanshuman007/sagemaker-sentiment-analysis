@@ -16,6 +16,7 @@ An AWS Account with permission to use Amazon SageMaker is required.
 6)	Once your notebook instance has started and is accessible, click on open to get to the Jupyter notebook main page.
 
 In order to clone the deployment repository into your notebook instance, click on the new drop down menu and select terminal. By default, the working directory of the terminal instance is the home directory, however, the Jupyter notebook hub's root directory is under SageMaker. Enter the appropriate directory and clone the repository as follows:
+
 cd SageMaker
 git clone https://github.com/cyanshuman007/sagemaker-sentiment-analysis.git
 exit
